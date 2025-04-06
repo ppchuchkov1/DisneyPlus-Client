@@ -1,4 +1,4 @@
 {
   "DEV": "http://localhost:5001/api",
-  "PROD": "https://your-live-api.com/api"
+  "PROD": "https://disneyplus-api.onrender.com/api"
 }
