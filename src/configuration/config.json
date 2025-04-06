@@ -1,0 +1,4 @@
+{
+  "DEV": "http://localhost:5001/api",
+  "PROD": "https://your-live-api.com/api"
+}

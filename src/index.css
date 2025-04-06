@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+::-moz-selection {
+  color: #fff;
+  background: #14b8a6;
+}
+
+::selection {
+  color: #fff;
+  background: #14b8a6;
+}
+
+.dropdown:focus-within .dropdown-menu {
+  opacity: 1;
+  transform: translate(0) scale(1);
+  visibility: visible;
+}
