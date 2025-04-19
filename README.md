@@ -1,12 +1,42 @@
-# React + Vite
+# 🎬 Disney+ Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Disney+ streaming platform clone built with **React**, **Tailwind CSS**, **Node.js**, **Express**, and **MongoDB**. Stream movies, browse categories, manage user accounts — all in a beautiful UI inspired by Disney+.
 
-Currently, two official plugins are available:
+⚠️ Note on Performance (Render Free Plan)
+⚠️ Important: This app is hosted on Render's free tier, which means:
+💤 The server may sleep after inactivity
+🕐 Initial load can take 10–30 seconds
+🚀 Once active, performance is normal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+🍿 **Stream Movies** — Watch trailers and video content  
+📁 **Categories & Collections** — Movies sorted by genre and type  
+🧑‍💻 **Authentication** — Secure login/register system (JWT)  
+🎨 **Responsive Design** — Works perfectly on desktop, tablet, and mobile  
+📦 **Full Backend API** — Built with Express.js and MongoDB  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Tech Stack
+
+- ⚛️ **React** — Frontend framework  
+- 🎨 **Tailwind CSS** — Utility-first CSS styling  
+- 🖥️ **Node.js + Express** — Backend server for API and auth  
+- 🍃 **MongoDB** — NoSQL database for storing movies and users  
+- 🛠️ **Mongoose** — MongoDB ODM  
+- 🚀 **Render** — For API deployment  
+
+## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/a27132d5-0640-4018-a816-4e7675785053)
+---
+
+## 🚀 Getting Started
+
+🖥️ Backend Setup (https://github.com/ppchuchkov1/DisneyPlus-API)
+npm install         # Install backend dependencies
+npm run dev         # Start backend server (http://localhost:5001)
+
+🌐 Frontend Setup (https://github.com/ppchuchkov1/DisneyPlus-Client)
+npm install         # Install frontend dependencies
+npm run dev         # Start frontend server (http://localhost:5173)
